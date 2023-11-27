@@ -2,6 +2,7 @@ class cpu{
   double _cpi= 0;
   double _Ic=0;
   double _freq=0;
+  int ic=0;
 
   cpu(double cpi , double Ic , double freq){
     _cpi = cpi;
